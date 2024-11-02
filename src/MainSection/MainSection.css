@@ -1,0 +1,10 @@
+main {
+    padding-top: 82px;
+    min-height: 100vh;
+}
+
+main section {
+    width: 100%;
+    padding: 0 25px;
+    box-sizing: border-box;
+}

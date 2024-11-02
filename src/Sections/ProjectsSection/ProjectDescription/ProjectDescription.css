@@ -1,0 +1,47 @@
+.ct-project-description {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.ct-project-links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ct-project-links a {
+    background-color: #00BBBE;
+    box-shadow: 0 0 10px #00BBBE;
+    color: #FBFCFC;
+    padding: 10px;
+    text-decoration: none;
+    margin-right: 15px;
+    transition: .4s;
+    text-align: center;
+    cursor: pointer;
+}
+
+.ct-project-links a:hover {
+    box-shadow: none;
+}
+
+.ct-project-links a:active {
+    background-color: #00888A;
+}
+
+.svg-icon-project {
+    cursor: pointer;
+    margin: 0 20px;
+    box-shadow: 0 0 10px #00BBBE;
+    border-radius: 50%;
+}
+
+.svg-icon-project:hover {
+    fill: red;
+    box-shadow: 0 0 10px #00888A;
+}
+
+.svg-icon-project:active {
+    background-color: #00888A;
+}

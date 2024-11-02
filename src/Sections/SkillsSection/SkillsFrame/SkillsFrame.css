@@ -1,0 +1,83 @@
+.div-skills {
+    width: 20rem;
+}
+
+.title-group-skills {
+    display: flex;
+    justify-content: center;
+}
+
+.title-group-skills p {
+    font-size: 30px;
+}
+
+.svg-skills {
+    width: 100px;
+    height: 100px;
+}
+
+.group-skills-icons {
+    display: grid;
+    align-items: center;
+    justify-items: center;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    border-radius: 50%;
+    gap: 20px;
+}
+
+/* SubTitle's styles */
+
+.skills-title {
+    margin-bottom: 1.5rem;
+}
+
+  .skills-title h1{
+    position: relative;
+    padding: 0;
+    margin: 0;
+    font-family: "Playfair Display", sans-serif;
+    font-weight: 300;
+    font-size: 40px;
+    -webkit-transition: all 0.4s ease 0s;
+    -o-transition: all 0.4s ease 0s;
+    transition: all 0.4s ease 0s;
+}
+
+.skills-title h1 span {
+    display: block;
+    font-size: 0.35em;
+    line-height: 1.3;
+}
+.skills-title h1 em {
+    font-style: normal;
+    font-weight: 600;
+}
+
+.skills-title h1 {
+    text-align: center;
+    text-transform: uppercase;
+    padding-bottom: 5px;
+}
+.skills-title h1:before {
+    width: 28px;
+    height: 5px;
+    display: block;
+    content: "";
+    position: absolute;
+    bottom: 3px;
+    left: 50%;
+    margin-left: -14px;
+    background-color: #B2D732;
+}
+.skills-title h1:after {
+    width: 100px;
+    height: 1px;
+    display: block;
+    content: "";
+    position: relative;
+    margin-top: 25px;
+    left: 50%;
+    margin-left: -50px;
+    background-color: #B2D732;
+}

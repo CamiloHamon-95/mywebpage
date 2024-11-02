@@ -1,0 +1,30 @@
+.project-box{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    padding: 1.5rem;
+}
+
+.project-box-reverse{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    padding: 1.5rem;
+}
+
+.project-box > div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.project-description {
+    max-width: 500px;
+    padding-bottom: 20px;
+}
+
+.project-image img {
+    max-width: 600px;
+    width: 100%;
+}

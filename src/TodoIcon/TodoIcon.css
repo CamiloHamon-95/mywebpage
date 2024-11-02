@@ -1,0 +1,21 @@
+.Icon-svg {
+  width: 24px;
+  height: 24px;
+  padding: 10px 15px;
+}
+
+.svg-menu-x {
+  width: 36px;
+  height: 36px;
+  cursor: pointer;
+}
+
+.svg-menu-x:active {
+  transform: scale(0.9);
+  opacity: 80%;
+}
+
+.span-svg {
+  width: 100%;
+  height: 100%;
+}

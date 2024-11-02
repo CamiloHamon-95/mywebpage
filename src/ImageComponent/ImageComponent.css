@@ -1,0 +1,22 @@
+.ct-photo {
+    display: flex;
+}
+
+.photo-frame {
+    max-width: 500px;
+    width: calc(100%-80px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.photo-frame img {
+    width: 100%;
+    clip-path: circle();
+}
+
+
+.image-home img {
+    width: 100%;
+    clip-path: ellipse();
+}

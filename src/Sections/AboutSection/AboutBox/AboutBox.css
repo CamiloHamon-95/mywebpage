@@ -1,0 +1,19 @@
+.aboutbox {
+    position: relative;
+    max-width: 650px;
+    width: 100%;
+    border-radius: 5%;
+}
+
+.aboutbox h2 {
+    position: relative;
+    left: 1rem;
+    top: 0rem;
+}
+
+.aboutbox p {
+    position: relative;
+    left: 0;
+    top: -1rem;
+    padding: 1.5rem;
+}
