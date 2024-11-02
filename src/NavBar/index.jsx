@@ -25,7 +25,7 @@ function NavBar ({theme, setTheme, menuState, setMenuState}) {
             window.open('https://www.youtube.com/@CamiloHamon', '_blank');
         },
         cv: () => {
-            window.open('https://drive.google.com/file/d/15tlCEKIEd4XbDDLQC7wIfhPKmIVGvAj4/view?usp=sharing', '_blank');
+            window.open('https://drive.google.com/file/d/1TccZ2q7EPmjS59f8OUBsVMw-AxInDpai/view?usp=sharing', '_blank');
         }
     };
 
