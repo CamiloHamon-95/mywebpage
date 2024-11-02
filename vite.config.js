@@ -14,7 +14,9 @@ export default defineConfig({
     preview: {
       host: true,
       port: 4000
-    }
+    },
+
+    base: "/mywebpage/"
 });
 
 /*
